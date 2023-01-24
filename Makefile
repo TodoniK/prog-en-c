@@ -1,10 +1,25 @@
-CFLAGS=-I.
+CC = gcc
+CFLAGS = -Iinclude
 
-matrix : matrix.o
-	$(CC) -o $@ $^ -lm
+SOURCES=$(wildcard src/*.c)
+OBJECTS=$(SOURCES:src/%.c=bin/%.o)
 
-%.o : %.c
-	$(CC) $(CFLAGS) -c $<
+all: prog
+
+prog: lib/libmat.so
+	@echo "**3** Compilation avec librairies..."
+	@$(CC) $(CFLAGS) -o $@ src/prog.c -Llib -lm
+
+bin/%.o: src/%.c
+	@ echo "**1** Compilation du $<..."
+	@$(CC) $(CFLAGS) -c -o $@ $< -fPIC
+
+lib/libmat.so: $(OBJECTS)
+	@echo "**2** Edition des liens..."
+	@$(CC) -shared -o $@ $^
 
 clean:
-	rm matrix matrix.o
+	@echo "NETTOYAGE !!!"
+	@rm -f bin/*.o prog lib/*.so
+
+.PHONY: clean all
