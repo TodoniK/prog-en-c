@@ -1,0 +1,48 @@
+\indexentry{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t@{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t}|hyperpage}{5}
+\indexentry{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t@{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t}!col\discretionary {-}{}{}\_\discretionary {-}{}{}size@{col\discretionary {-}{}{}\_\discretionary {-}{}{}size}|hyperpage}{5}
+\indexentry{col\discretionary {-}{}{}\_\discretionary {-}{}{}size@{col\discretionary {-}{}{}\_\discretionary {-}{}{}size}!matrix_t@{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t}|hyperpage}{5}
+\indexentry{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t@{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t}!row\discretionary {-}{}{}\_\discretionary {-}{}{}size@{row\discretionary {-}{}{}\_\discretionary {-}{}{}size}|hyperpage}{5}
+\indexentry{row\discretionary {-}{}{}\_\discretionary {-}{}{}size@{row\discretionary {-}{}{}\_\discretionary {-}{}{}size}!matrix_t@{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t}|hyperpage}{5}
+\indexentry{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t@{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t}!values@{values}|hyperpage}{5}
+\indexentry{values@{values}!matrix_t@{matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t}|hyperpage}{5}
+\indexentry{vector\discretionary {-}{}{}\_\discretionary {-}{}{}t@{vector\discretionary {-}{}{}\_\discretionary {-}{}{}t}|hyperpage}{5}
+\indexentry{vector\discretionary {-}{}{}\_\discretionary {-}{}{}t@{vector\discretionary {-}{}{}\_\discretionary {-}{}{}t}!size@{size}|hyperpage}{6}
+\indexentry{size@{size}!vector_t@{vector\discretionary {-}{}{}\_\discretionary {-}{}{}t}|hyperpage}{6}
+\indexentry{vector\discretionary {-}{}{}\_\discretionary {-}{}{}t@{vector\discretionary {-}{}{}\_\discretionary {-}{}{}t}!values@{values}|hyperpage}{6}
+\indexentry{values@{values}!vector_t@{vector\discretionary {-}{}{}\_\discretionary {-}{}{}t}|hyperpage}{6}
+\indexentry{/net/r/jroyet/\discretionary {-}{}{}Documents/\discretionary {-}{}{}S6/\discretionary {-}{}{}P\discretionary {-}{}{}G120/include/matrix.\discretionary {-}{}{}h@{/net/r/jroyet/\discretionary {-}{}{}Documents/\discretionary {-}{}{}S6/\discretionary {-}{}{}P\discretionary {-}{}{}G120/include/matrix.\discretionary {-}{}{}h}|hyperpage}{7}
+\indexentry{matrix.\discretionary {-}{}{}h@{matrix.\discretionary {-}{}{}h}!apply@{apply}|hyperpage}{7}
+\indexentry{apply@{apply}!matrix.h@{matrix.\discretionary {-}{}{}h}|hyperpage}{7}
+\indexentry{matrix.\discretionary {-}{}{}h@{matrix.\discretionary {-}{}{}h}!free\discretionary {-}{}{}\_\discretionary {-}{}{}matrix@{free\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}|hyperpage}{7}
+\indexentry{free\discretionary {-}{}{}\_\discretionary {-}{}{}matrix@{free\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}!matrix.h@{matrix.\discretionary {-}{}{}h}|hyperpage}{7}
+\indexentry{matrix.\discretionary {-}{}{}h@{matrix.\discretionary {-}{}{}h}!m\discretionary {-}{}{}\_\discretionary {-}{}{}add@{m\discretionary {-}{}{}\_\discretionary {-}{}{}add}|hyperpage}{8}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}add@{m\discretionary {-}{}{}\_\discretionary {-}{}{}add}!matrix.h@{matrix.\discretionary {-}{}{}h}|hyperpage}{8}
+\indexentry{matrix.\discretionary {-}{}{}h@{matrix.\discretionary {-}{}{}h}!m\discretionary {-}{}{}\_\discretionary {-}{}{}get@{m\discretionary {-}{}{}\_\discretionary {-}{}{}get}|hyperpage}{8}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}get@{m\discretionary {-}{}{}\_\discretionary {-}{}{}get}!matrix.h@{matrix.\discretionary {-}{}{}h}|hyperpage}{8}
+\indexentry{matrix.\discretionary {-}{}{}h@{matrix.\discretionary {-}{}{}h}!m\discretionary {-}{}{}\_\discretionary {-}{}{}print@{m\discretionary {-}{}{}\_\discretionary {-}{}{}print}|hyperpage}{8}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}print@{m\discretionary {-}{}{}\_\discretionary {-}{}{}print}!matrix.h@{matrix.\discretionary {-}{}{}h}|hyperpage}{8}
+\indexentry{matrix.\discretionary {-}{}{}h@{matrix.\discretionary {-}{}{}h}!m\discretionary {-}{}{}\_\discretionary {-}{}{}set@{m\discretionary {-}{}{}\_\discretionary {-}{}{}set}|hyperpage}{8}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}set@{m\discretionary {-}{}{}\_\discretionary {-}{}{}set}!matrix.h@{matrix.\discretionary {-}{}{}h}|hyperpage}{8}
+\indexentry{matrix.\discretionary {-}{}{}h@{matrix.\discretionary {-}{}{}h}!make\discretionary {-}{}{}\_\discretionary {-}{}{}matrix@{make\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}|hyperpage}{8}
+\indexentry{make\discretionary {-}{}{}\_\discretionary {-}{}{}matrix@{make\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}!matrix.h@{matrix.\discretionary {-}{}{}h}|hyperpage}{8}
+\indexentry{matrix.\discretionary {-}{}{}h@{matrix.\discretionary {-}{}{}h}!make\discretionary {-}{}{}\_\discretionary {-}{}{}rotation\discretionary {-}{}{}\_\discretionary {-}{}{}matrix@{make\discretionary {-}{}{}\_\discretionary {-}{}{}rotation\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}|hyperpage}{9}
+\indexentry{make\discretionary {-}{}{}\_\discretionary {-}{}{}rotation\discretionary {-}{}{}\_\discretionary {-}{}{}matrix@{make\discretionary {-}{}{}\_\discretionary {-}{}{}rotation\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}!matrix.h@{matrix.\discretionary {-}{}{}h}|hyperpage}{9}
+\indexentry{matrix.\discretionary {-}{}{}h@{matrix.\discretionary {-}{}{}h}!peek\discretionary {-}{}{}\_\discretionary {-}{}{}row@{peek\discretionary {-}{}{}\_\discretionary {-}{}{}row}|hyperpage}{9}
+\indexentry{peek\discretionary {-}{}{}\_\discretionary {-}{}{}row@{peek\discretionary {-}{}{}\_\discretionary {-}{}{}row}!matrix.h@{matrix.\discretionary {-}{}{}h}|hyperpage}{9}
+\indexentry{/net/r/jroyet/\discretionary {-}{}{}Documents/\discretionary {-}{}{}S6/\discretionary {-}{}{}P\discretionary {-}{}{}G120/include/vector.\discretionary {-}{}{}h@{/net/r/jroyet/\discretionary {-}{}{}Documents/\discretionary {-}{}{}S6/\discretionary {-}{}{}P\discretionary {-}{}{}G120/include/vector.\discretionary {-}{}{}h}|hyperpage}{9}
+\indexentry{vector.\discretionary {-}{}{}h@{vector.\discretionary {-}{}{}h}!free\discretionary {-}{}{}\_\discretionary {-}{}{}vector@{free\discretionary {-}{}{}\_\discretionary {-}{}{}vector}|hyperpage}{10}
+\indexentry{free\discretionary {-}{}{}\_\discretionary {-}{}{}vector@{free\discretionary {-}{}{}\_\discretionary {-}{}{}vector}!vector.h@{vector.\discretionary {-}{}{}h}|hyperpage}{10}
+\indexentry{vector.\discretionary {-}{}{}h@{vector.\discretionary {-}{}{}h}!make\discretionary {-}{}{}\_\discretionary {-}{}{}vector@{make\discretionary {-}{}{}\_\discretionary {-}{}{}vector}|hyperpage}{10}
+\indexentry{make\discretionary {-}{}{}\_\discretionary {-}{}{}vector@{make\discretionary {-}{}{}\_\discretionary {-}{}{}vector}!vector.h@{vector.\discretionary {-}{}{}h}|hyperpage}{10}
+\indexentry{vector.\discretionary {-}{}{}h@{vector.\discretionary {-}{}{}h}!scalar\discretionary {-}{}{}\_\discretionary {-}{}{}prod@{scalar\discretionary {-}{}{}\_\discretionary {-}{}{}prod}|hyperpage}{10}
+\indexentry{scalar\discretionary {-}{}{}\_\discretionary {-}{}{}prod@{scalar\discretionary {-}{}{}\_\discretionary {-}{}{}prod}!vector.h@{vector.\discretionary {-}{}{}h}|hyperpage}{10}
+\indexentry{vector.\discretionary {-}{}{}h@{vector.\discretionary {-}{}{}h}!v\discretionary {-}{}{}\_\discretionary {-}{}{}add@{v\discretionary {-}{}{}\_\discretionary {-}{}{}add}|hyperpage}{10}
+\indexentry{v\discretionary {-}{}{}\_\discretionary {-}{}{}add@{v\discretionary {-}{}{}\_\discretionary {-}{}{}add}!vector.h@{vector.\discretionary {-}{}{}h}|hyperpage}{10}
+\indexentry{vector.\discretionary {-}{}{}h@{vector.\discretionary {-}{}{}h}!v\discretionary {-}{}{}\_\discretionary {-}{}{}get@{v\discretionary {-}{}{}\_\discretionary {-}{}{}get}|hyperpage}{11}
+\indexentry{v\discretionary {-}{}{}\_\discretionary {-}{}{}get@{v\discretionary {-}{}{}\_\discretionary {-}{}{}get}!vector.h@{vector.\discretionary {-}{}{}h}|hyperpage}{11}
+\indexentry{vector.\discretionary {-}{}{}h@{vector.\discretionary {-}{}{}h}!v\discretionary {-}{}{}\_\discretionary {-}{}{}print@{v\discretionary {-}{}{}\_\discretionary {-}{}{}print}|hyperpage}{11}
+\indexentry{v\discretionary {-}{}{}\_\discretionary {-}{}{}print@{v\discretionary {-}{}{}\_\discretionary {-}{}{}print}!vector.h@{vector.\discretionary {-}{}{}h}|hyperpage}{11}
+\indexentry{vector.\discretionary {-}{}{}h@{vector.\discretionary {-}{}{}h}!v\discretionary {-}{}{}\_\discretionary {-}{}{}print\discretionary {-}{}{}\_\discretionary {-}{}{}h@{v\discretionary {-}{}{}\_\discretionary {-}{}{}print\discretionary {-}{}{}\_\discretionary {-}{}{}h}|hyperpage}{11}
+\indexentry{v\discretionary {-}{}{}\_\discretionary {-}{}{}print\discretionary {-}{}{}\_\discretionary {-}{}{}h@{v\discretionary {-}{}{}\_\discretionary {-}{}{}print\discretionary {-}{}{}\_\discretionary {-}{}{}h}!vector.h@{vector.\discretionary {-}{}{}h}|hyperpage}{11}
+\indexentry{vector.\discretionary {-}{}{}h@{vector.\discretionary {-}{}{}h}!v\discretionary {-}{}{}\_\discretionary {-}{}{}set@{v\discretionary {-}{}{}\_\discretionary {-}{}{}set}|hyperpage}{11}
+\indexentry{v\discretionary {-}{}{}\_\discretionary {-}{}{}set@{v\discretionary {-}{}{}\_\discretionary {-}{}{}set}!vector.h@{vector.\discretionary {-}{}{}h}|hyperpage}{11}

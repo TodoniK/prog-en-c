@@ -19,4 +19,8 @@ clean:
 	@echo "NETTOYAGE !!!"
 	@rm -f bin/*.o prog lib/*.so
 
-.PHONY: clean all
+doc:
+	@echo "Compilation de la documentation !!"
+	@doxygen doc/Doxyfile
+
+.PHONY: clean all doc

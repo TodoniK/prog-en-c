@@ -1,0 +1,41 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Index des structures de donn\IeC {\'e}es}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Structures de donn\IeC {\'e}es}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Index des fichiers}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Liste des fichiers}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Documentation des structures de donn\IeC {\'e}es}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}R\IeC {\'e}f\IeC {\'e}rence de la structure matrix\discretionary {-}{}{}\_\discretionary {-}{}{}t}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Description d\IeC {\'e}taill\IeC {\'e}e}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Documentation des champs}{5}{subsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.2.1}col\discretionary {-}{}{}\_\discretionary {-}{}{}size}{5}{subsubsection.3.1.2.1}
+\contentsline {subsubsection}{\numberline {3.1.2.2}row\discretionary {-}{}{}\_\discretionary {-}{}{}size}{5}{subsubsection.3.1.2.2}
+\contentsline {subsubsection}{\numberline {3.1.2.3}values}{5}{subsubsection.3.1.2.3}
+\contentsline {section}{\numberline {3.2}R\IeC {\'e}f\IeC {\'e}rence de la structure vector\discretionary {-}{}{}\_\discretionary {-}{}{}t}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Description d\IeC {\'e}taill\IeC {\'e}e}{6}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Documentation des champs}{6}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}size}{6}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}values}{6}{subsubsection.3.2.2.2}
+\contentsline {chapter}{\numberline {4}Documentation des fichiers}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}R\IeC {\'e}f\IeC {\'e}rence du fichier /net/r/jroyet/\discretionary {-}{}{}Documents/\discretionary {-}{}{}S6/\discretionary {-}{}{}P\discretionary {-}{}{}G120/include/matrix.h}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Description d\IeC {\'e}taill\IeC {\'e}e}{7}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Documentation des fonctions}{7}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}apply}{7}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}free\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}{7}{subsubsection.4.1.2.2}
+\contentsline {subsubsection}{\numberline {4.1.2.3}m\discretionary {-}{}{}\_\discretionary {-}{}{}add}{8}{subsubsection.4.1.2.3}
+\contentsline {subsubsection}{\numberline {4.1.2.4}m\discretionary {-}{}{}\_\discretionary {-}{}{}get}{8}{subsubsection.4.1.2.4}
+\contentsline {subsubsection}{\numberline {4.1.2.5}m\discretionary {-}{}{}\_\discretionary {-}{}{}print}{8}{subsubsection.4.1.2.5}
+\contentsline {subsubsection}{\numberline {4.1.2.6}m\discretionary {-}{}{}\_\discretionary {-}{}{}set}{8}{subsubsection.4.1.2.6}
+\contentsline {subsubsection}{\numberline {4.1.2.7}make\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}{9}{subsubsection.4.1.2.7}
+\contentsline {subsubsection}{\numberline {4.1.2.8}make\discretionary {-}{}{}\_\discretionary {-}{}{}rotation\discretionary {-}{}{}\_\discretionary {-}{}{}matrix}{9}{subsubsection.4.1.2.8}
+\contentsline {subsubsection}{\numberline {4.1.2.9}peek\discretionary {-}{}{}\_\discretionary {-}{}{}row}{9}{subsubsection.4.1.2.9}
+\contentsline {section}{\numberline {4.2}R\IeC {\'e}f\IeC {\'e}rence du fichier /net/r/jroyet/\discretionary {-}{}{}Documents/\discretionary {-}{}{}S6/\discretionary {-}{}{}P\discretionary {-}{}{}G120/include/vector.h}{9}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Description d\IeC {\'e}taill\IeC {\'e}e}{10}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Documentation des fonctions}{10}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}free\discretionary {-}{}{}\_\discretionary {-}{}{}vector}{10}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}make\discretionary {-}{}{}\_\discretionary {-}{}{}vector}{10}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}scalar\discretionary {-}{}{}\_\discretionary {-}{}{}prod}{10}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}v\discretionary {-}{}{}\_\discretionary {-}{}{}add}{11}{subsubsection.4.2.2.4}
+\contentsline {subsubsection}{\numberline {4.2.2.5}v\discretionary {-}{}{}\_\discretionary {-}{}{}get}{11}{subsubsection.4.2.2.5}
+\contentsline {subsubsection}{\numberline {4.2.2.6}v\discretionary {-}{}{}\_\discretionary {-}{}{}print}{11}{subsubsection.4.2.2.6}
+\contentsline {subsubsection}{\numberline {4.2.2.7}v\discretionary {-}{}{}\_\discretionary {-}{}{}print\discretionary {-}{}{}\_\discretionary {-}{}{}h}{11}{subsubsection.4.2.2.7}
+\contentsline {subsubsection}{\numberline {4.2.2.8}v\discretionary {-}{}{}\_\discretionary {-}{}{}set}{11}{subsubsection.4.2.2.8}

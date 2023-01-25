@@ -1,0 +1,191 @@
+\hypertarget{matrix_8h}{\section{Référence du fichier /net/r/jroyet/\-Documents/\-S6/\-P\-G120/include/matrix.h}
+\label{matrix_8h}\index{/net/r/jroyet/\-Documents/\-S6/\-P\-G120/include/matrix.\-h@{/net/r/jroyet/\-Documents/\-S6/\-P\-G120/include/matrix.\-h}}
+}
+
+
+A small matrix library.  
+
+
+{\ttfamily \#include $<$vector.\-h$>$}\\*
+\subsection*{Structures de données}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structmatrix__t}{matrix\-\_\-t}
+\begin{DoxyCompactList}\small\item\em Definition of \hyperlink{structvector__t}{vector\-\_\-t} type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structmatrix__t}{matrix\-\_\-t} \hyperlink{matrix_8h_ad769ccf600ccdfc34bc1e689de15c62a}{make\-\_\-matrix} (unsigned r, unsigned c)
+\begin{DoxyCompactList}\small\item\em Matrix factory. \end{DoxyCompactList}\item 
+void \hyperlink{matrix_8h_a73dd7de95b32250bc477a82a9d342ccc}{free\-\_\-matrix} (\hyperlink{structmatrix__t}{matrix\-\_\-t} m)
+\begin{DoxyCompactList}\small\item\em Matrix factory. \end{DoxyCompactList}\item 
+double \hyperlink{matrix_8h_a518c9b74e759caaffb4d2b7acb375e72}{m\-\_\-get} (\hyperlink{structmatrix__t}{matrix\-\_\-t} m, unsigned i, unsigned j)
+\begin{DoxyCompactList}\small\item\em Matrix factory. \end{DoxyCompactList}\item 
+void \hyperlink{matrix_8h_ad968f7e942878afd429a3ad0204dcd81}{m\-\_\-set} (\hyperlink{structmatrix__t}{matrix\-\_\-t} m, unsigned i, unsigned j, double x)
+\begin{DoxyCompactList}\small\item\em Matrix factory. \end{DoxyCompactList}\item 
+void \hyperlink{matrix_8h_ae515207cfa1f83320afbaf3c5e9a2ee0}{m\-\_\-add} (\hyperlink{structmatrix__t}{matrix\-\_\-t} m, unsigned i, unsigned j, double x)
+\begin{DoxyCompactList}\small\item\em Matrix factory. \end{DoxyCompactList}\item 
+void \hyperlink{matrix_8h_aa15b2812edebddf228d0726ee7878e14}{peek\-\_\-row} (const \hyperlink{structmatrix__t}{matrix\-\_\-t} $\ast$m, unsigned i, \hyperlink{structvector__t}{vector\-\_\-t} $\ast$v)
+\item 
+\hyperlink{structvector__t}{vector\-\_\-t} \hyperlink{matrix_8h_adff2f2ffa358db9801416b0ea43b16bd}{apply} (\hyperlink{structmatrix__t}{matrix\-\_\-t} m, \hyperlink{structvector__t}{vector\-\_\-t} v)
+\item 
+void \hyperlink{matrix_8h_af49628e444147f6d4835b0857cd11329}{m\-\_\-print} (\hyperlink{structmatrix__t}{matrix\-\_\-t} m)
+\begin{DoxyCompactList}\small\item\em Matrix factory. \end{DoxyCompactList}\item 
+\hyperlink{structmatrix__t}{matrix\-\_\-t} \hyperlink{matrix_8h_ab2f814a6c8f0a7e85a44407c6a3e320d}{make\-\_\-rotation\-\_\-matrix} (double alpha)
+\begin{DoxyCompactList}\small\item\em Matrix factory. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+A small matrix library. This library provide a few functions for the computation with matrixs. 
+
+\subsection{Documentation des fonctions}
+\hypertarget{matrix_8h_adff2f2ffa358db9801416b0ea43b16bd}{\index{matrix.\-h@{matrix.\-h}!apply@{apply}}
+\index{apply@{apply}!matrix.h@{matrix.\-h}}
+\subsubsection[{apply}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector\-\_\-t} apply (
+\begin{DoxyParamCaption}
+\item[{{\bf matrix\-\_\-t}}]{m, }
+\item[{{\bf vector\-\_\-t}}]{v}
+\end{DoxyParamCaption}
+)}}\label{matrix_8h_adff2f2ffa358db9801416b0ea43b16bd}
+\hypertarget{matrix_8h_a73dd7de95b32250bc477a82a9d342ccc}{\index{matrix.\-h@{matrix.\-h}!free\-\_\-matrix@{free\-\_\-matrix}}
+\index{free\-\_\-matrix@{free\-\_\-matrix}!matrix.h@{matrix.\-h}}
+\subsubsection[{free\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}void free\-\_\-matrix (
+\begin{DoxyParamCaption}
+\item[{{\bf matrix\-\_\-t}}]{m}
+\end{DoxyParamCaption}
+)}}\label{matrix_8h_a73dd7de95b32250bc477a82a9d342ccc}
+
+
+Matrix factory. 
+
+This function delete in memory the dynamic array of the matrix stucture; 
+\begin{DoxyParams}{Paramètres}
+{\em m,\-:} & the matrix you want to free, must not be null. \\
+\hline
+\end{DoxyParams}
+\hypertarget{matrix_8h_ae515207cfa1f83320afbaf3c5e9a2ee0}{\index{matrix.\-h@{matrix.\-h}!m\-\_\-add@{m\-\_\-add}}
+\index{m\-\_\-add@{m\-\_\-add}!matrix.h@{matrix.\-h}}
+\subsubsection[{m\-\_\-add}]{\setlength{\rightskip}{0pt plus 5cm}void m\-\_\-add (
+\begin{DoxyParamCaption}
+\item[{{\bf matrix\-\_\-t}}]{m, }
+\item[{unsigned}]{i, }
+\item[{unsigned}]{j, }
+\item[{double}]{x}
+\end{DoxyParamCaption}
+)}}\label{matrix_8h_ae515207cfa1f83320afbaf3c5e9a2ee0}
+
+
+Matrix factory. 
+
+This function insert your value x at the index i,j of the matrix; 
+\begin{DoxyParams}{Paramètres}
+{\em m,i,j,x,\-:} & the vector v you want to add value and i the index and x double you want to set. \\
+\hline
+\end{DoxyParams}
+\hypertarget{matrix_8h_a518c9b74e759caaffb4d2b7acb375e72}{\index{matrix.\-h@{matrix.\-h}!m\-\_\-get@{m\-\_\-get}}
+\index{m\-\_\-get@{m\-\_\-get}!matrix.h@{matrix.\-h}}
+\subsubsection[{m\-\_\-get}]{\setlength{\rightskip}{0pt plus 5cm}double m\-\_\-get (
+\begin{DoxyParamCaption}
+\item[{{\bf matrix\-\_\-t}}]{m, }
+\item[{unsigned}]{i, }
+\item[{unsigned}]{j}
+\end{DoxyParamCaption}
+)}}\label{matrix_8h_a518c9b74e759caaffb4d2b7acb375e72}
+
+
+Matrix factory. 
+
+This function return you the value contained in at the i index of his value array; 
+\begin{DoxyParams}{Paramètres}
+{\em m,i,j,\-:} & the matrix m you want to get value (not null) and i the index of row (not null), j the index of column (not null). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+a double, corresponding to the value contained at i,j index in the array. 
+\end{DoxyReturn}
+\hypertarget{matrix_8h_af49628e444147f6d4835b0857cd11329}{\index{matrix.\-h@{matrix.\-h}!m\-\_\-print@{m\-\_\-print}}
+\index{m\-\_\-print@{m\-\_\-print}!matrix.h@{matrix.\-h}}
+\subsubsection[{m\-\_\-print}]{\setlength{\rightskip}{0pt plus 5cm}void m\-\_\-print (
+\begin{DoxyParamCaption}
+\item[{{\bf matrix\-\_\-t}}]{m}
+\end{DoxyParamCaption}
+)}}\label{matrix_8h_af49628e444147f6d4835b0857cd11329}
+
+
+Matrix factory. 
+
+This function print the matrix. 
+\begin{DoxyParams}{Paramètres}
+{\em m,\-:} & matrix you want to display. \\
+\hline
+\end{DoxyParams}
+\hypertarget{matrix_8h_ad968f7e942878afd429a3ad0204dcd81}{\index{matrix.\-h@{matrix.\-h}!m\-\_\-set@{m\-\_\-set}}
+\index{m\-\_\-set@{m\-\_\-set}!matrix.h@{matrix.\-h}}
+\subsubsection[{m\-\_\-set}]{\setlength{\rightskip}{0pt plus 5cm}void m\-\_\-set (
+\begin{DoxyParamCaption}
+\item[{{\bf matrix\-\_\-t}}]{m, }
+\item[{unsigned}]{i, }
+\item[{unsigned}]{j, }
+\item[{double}]{x}
+\end{DoxyParamCaption}
+)}}\label{matrix_8h_ad968f7e942878afd429a3ad0204dcd81}
+
+
+Matrix factory. 
+
+This function set at the value indexed i,j, the value x you passed in parameter; 
+\begin{DoxyParams}{Paramètres}
+{\em m,i,j,x,\-:} & the vector v you want to set value (not null) and i the index (not null) and x double you want to set. \\
+\hline
+\end{DoxyParams}
+\hypertarget{matrix_8h_ad769ccf600ccdfc34bc1e689de15c62a}{\index{matrix.\-h@{matrix.\-h}!make\-\_\-matrix@{make\-\_\-matrix}}
+\index{make\-\_\-matrix@{make\-\_\-matrix}!matrix.h@{matrix.\-h}}
+\subsubsection[{make\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}{\bf matrix\-\_\-t} make\-\_\-matrix (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{r, }
+\item[{unsigned}]{c}
+\end{DoxyParamCaption}
+)}}\label{matrix_8h_ad769ccf600ccdfc34bc1e689de15c62a}
+
+
+Matrix factory. 
+
+This function builds a null matrix of size s; the array is dynamically allocated and must be freed with the function free\-\_\-matrix 
+\begin{DoxyParams}{Paramètres}
+{\em r,c,\-:} & number of row (r) and columns (c) must be $>$0 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+a matrix of size s initialized to 0 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Voir également}
+\hyperlink{matrix_8h_a73dd7de95b32250bc477a82a9d342ccc}{free\-\_\-matrix} 
+\end{DoxySeeAlso}
+\hypertarget{matrix_8h_ab2f814a6c8f0a7e85a44407c6a3e320d}{\index{matrix.\-h@{matrix.\-h}!make\-\_\-rotation\-\_\-matrix@{make\-\_\-rotation\-\_\-matrix}}
+\index{make\-\_\-rotation\-\_\-matrix@{make\-\_\-rotation\-\_\-matrix}!matrix.h@{matrix.\-h}}
+\subsubsection[{make\-\_\-rotation\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}{\bf matrix\-\_\-t} make\-\_\-rotation\-\_\-matrix (
+\begin{DoxyParamCaption}
+\item[{double}]{alpha}
+\end{DoxyParamCaption}
+)}}\label{matrix_8h_ab2f814a6c8f0a7e85a44407c6a3e320d}
+
+
+Matrix factory. 
+
+This function return your matrix rotated by alpha degree; 
+\begin{DoxyParams}{Paramètres}
+{\em alpha,\-:} & degree you want to rotate your matrix. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+your matrix. 
+\end{DoxyReturn}
+\hypertarget{matrix_8h_aa15b2812edebddf228d0726ee7878e14}{\index{matrix.\-h@{matrix.\-h}!peek\-\_\-row@{peek\-\_\-row}}
+\index{peek\-\_\-row@{peek\-\_\-row}!matrix.h@{matrix.\-h}}
+\subsubsection[{peek\-\_\-row}]{\setlength{\rightskip}{0pt plus 5cm}void peek\-\_\-row (
+\begin{DoxyParamCaption}
+\item[{const {\bf matrix\-\_\-t} $\ast$}]{m, }
+\item[{unsigned}]{i, }
+\item[{{\bf vector\-\_\-t} $\ast$}]{v}
+\end{DoxyParamCaption}
+)}}\label{matrix_8h_aa15b2812edebddf228d0726ee7878e14}

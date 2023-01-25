@@ -1,0 +1,184 @@
+\hypertarget{vector_8h}{\section{Référence du fichier /net/r/jroyet/\-Documents/\-S6/\-P\-G120/include/vector.h}
+\label{vector_8h}\index{/net/r/jroyet/\-Documents/\-S6/\-P\-G120/include/vector.\-h@{/net/r/jroyet/\-Documents/\-S6/\-P\-G120/include/vector.\-h}}
+}
+
+
+A small vector library.  
+
+
+\subsection*{Structures de données}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structvector__t}{vector\-\_\-t}
+\begin{DoxyCompactList}\small\item\em Definition of \hyperlink{structvector__t}{vector\-\_\-t} type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structvector__t}{vector\-\_\-t} \hyperlink{vector_8h_abf462db10b4ea49c9582a79cb10d19c2}{make\-\_\-vector} (unsigned s)
+\begin{DoxyCompactList}\small\item\em Vector factory. \end{DoxyCompactList}\item 
+void \hyperlink{vector_8h_a8e6460f787cd8bab8f1b7348ae895487}{free\-\_\-vector} (\hyperlink{structvector__t}{vector\-\_\-t} v)
+\begin{DoxyCompactList}\small\item\em Vector factory. \end{DoxyCompactList}\item 
+double \hyperlink{vector_8h_ab99eafae2c07dad51e8611d96ac0eb89}{v\-\_\-get} (\hyperlink{structvector__t}{vector\-\_\-t} v, unsigned i)
+\begin{DoxyCompactList}\small\item\em Vector factory. \end{DoxyCompactList}\item 
+void \hyperlink{vector_8h_a462c39061dabc24bcd55f9c8a24e7465}{v\-\_\-set} (\hyperlink{structvector__t}{vector\-\_\-t} v, unsigned i, double x)
+\begin{DoxyCompactList}\small\item\em Vector factory. \end{DoxyCompactList}\item 
+void \hyperlink{vector_8h_a8133eac2b576ffed434fa33d77cac186}{v\-\_\-add} (\hyperlink{structvector__t}{vector\-\_\-t} v, unsigned i, double x)
+\begin{DoxyCompactList}\small\item\em Vector factory. \end{DoxyCompactList}\item 
+double \hyperlink{vector_8h_a7a0cb8fa0645c1b93a14ca17b0455d1f}{scalar\-\_\-prod} (\hyperlink{structvector__t}{vector\-\_\-t} v1, \hyperlink{structvector__t}{vector\-\_\-t} v2)
+\begin{DoxyCompactList}\small\item\em Vector factory. \end{DoxyCompactList}\item 
+void \hyperlink{vector_8h_a0c84d1ac261656da72a6dec1bbf435c6}{v\-\_\-print\-\_\-h} (\hyperlink{structvector__t}{vector\-\_\-t} v)
+\begin{DoxyCompactList}\small\item\em Vector factory. \end{DoxyCompactList}\item 
+void \hyperlink{vector_8h_a4e39a5a166bcc8b5457b4312f01a61c8}{v\-\_\-print} (\hyperlink{structvector__t}{vector\-\_\-t} v)
+\begin{DoxyCompactList}\small\item\em Vector factory. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+A small vector library. This library provide a few functions for the computation with vectors. 
+
+\subsection{Documentation des fonctions}
+\hypertarget{vector_8h_a8e6460f787cd8bab8f1b7348ae895487}{\index{vector.\-h@{vector.\-h}!free\-\_\-vector@{free\-\_\-vector}}
+\index{free\-\_\-vector@{free\-\_\-vector}!vector.h@{vector.\-h}}
+\subsubsection[{free\-\_\-vector}]{\setlength{\rightskip}{0pt plus 5cm}void free\-\_\-vector (
+\begin{DoxyParamCaption}
+\item[{{\bf vector\-\_\-t}}]{v}
+\end{DoxyParamCaption}
+)}}\label{vector_8h_a8e6460f787cd8bab8f1b7348ae895487}
+
+
+Vector factory. 
+
+This function delete in memory the dynamic array of the vector stucture; 
+\begin{DoxyParams}{Paramètres}
+{\em v,\-:} & the vector you want to free, must not be null. \\
+\hline
+\end{DoxyParams}
+\hypertarget{vector_8h_abf462db10b4ea49c9582a79cb10d19c2}{\index{vector.\-h@{vector.\-h}!make\-\_\-vector@{make\-\_\-vector}}
+\index{make\-\_\-vector@{make\-\_\-vector}!vector.h@{vector.\-h}}
+\subsubsection[{make\-\_\-vector}]{\setlength{\rightskip}{0pt plus 5cm}{\bf vector\-\_\-t} make\-\_\-vector (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{s}
+\end{DoxyParamCaption}
+)}}\label{vector_8h_abf462db10b4ea49c9582a79cb10d19c2}
+
+
+Vector factory. 
+
+This function builds a null vector of size s; the array is dynamically allocated and must be freed with the function free\-\_\-vector 
+\begin{DoxyParams}{Paramètres}
+{\em s,\-:} & the size of the vector must be $>$0 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+a vector of size s initialized to 0 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{Voir également}
+\hyperlink{vector_8h_a8e6460f787cd8bab8f1b7348ae895487}{free\-\_\-vector} 
+\end{DoxySeeAlso}
+\hypertarget{vector_8h_a7a0cb8fa0645c1b93a14ca17b0455d1f}{\index{vector.\-h@{vector.\-h}!scalar\-\_\-prod@{scalar\-\_\-prod}}
+\index{scalar\-\_\-prod@{scalar\-\_\-prod}!vector.h@{vector.\-h}}
+\subsubsection[{scalar\-\_\-prod}]{\setlength{\rightskip}{0pt plus 5cm}double scalar\-\_\-prod (
+\begin{DoxyParamCaption}
+\item[{{\bf vector\-\_\-t}}]{v1, }
+\item[{{\bf vector\-\_\-t}}]{v2}
+\end{DoxyParamCaption}
+)}}\label{vector_8h_a7a0cb8fa0645c1b93a14ca17b0455d1f}
+
+
+Vector factory. 
+
+This function do the scalar product of two vectors; 
+\begin{DoxyParams}{Paramètres}
+{\em v1,v2,\-:} & two vector you want to multiply (not null) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+the product of scalar product. 
+\end{DoxyReturn}
+\hypertarget{vector_8h_a8133eac2b576ffed434fa33d77cac186}{\index{vector.\-h@{vector.\-h}!v\-\_\-add@{v\-\_\-add}}
+\index{v\-\_\-add@{v\-\_\-add}!vector.h@{vector.\-h}}
+\subsubsection[{v\-\_\-add}]{\setlength{\rightskip}{0pt plus 5cm}void v\-\_\-add (
+\begin{DoxyParamCaption}
+\item[{{\bf vector\-\_\-t}}]{v, }
+\item[{unsigned}]{i, }
+\item[{double}]{x}
+\end{DoxyParamCaption}
+)}}\label{vector_8h_a8133eac2b576ffed434fa33d77cac186}
+
+
+Vector factory. 
+
+This function insert your value v at the index i of the vector; 
+\begin{DoxyParams}{Paramètres}
+{\em v,i,x,\-:} & the vector v you want to add value and i the index and x double you want to set. \\
+\hline
+\end{DoxyParams}
+\hypertarget{vector_8h_ab99eafae2c07dad51e8611d96ac0eb89}{\index{vector.\-h@{vector.\-h}!v\-\_\-get@{v\-\_\-get}}
+\index{v\-\_\-get@{v\-\_\-get}!vector.h@{vector.\-h}}
+\subsubsection[{v\-\_\-get}]{\setlength{\rightskip}{0pt plus 5cm}double v\-\_\-get (
+\begin{DoxyParamCaption}
+\item[{{\bf vector\-\_\-t}}]{v, }
+\item[{unsigned}]{i}
+\end{DoxyParamCaption}
+)}}\label{vector_8h_ab99eafae2c07dad51e8611d96ac0eb89}
+
+
+Vector factory. 
+
+This function return you the value contained in at the i index of his value array; 
+\begin{DoxyParams}{Paramètres}
+{\em v,i,\-:} & the vector v you want to get value (not null) and i the index (not null). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+a double, corresponding to the value contained at i index in the array. 
+\end{DoxyReturn}
+\hypertarget{vector_8h_a4e39a5a166bcc8b5457b4312f01a61c8}{\index{vector.\-h@{vector.\-h}!v\-\_\-print@{v\-\_\-print}}
+\index{v\-\_\-print@{v\-\_\-print}!vector.h@{vector.\-h}}
+\subsubsection[{v\-\_\-print}]{\setlength{\rightskip}{0pt plus 5cm}void v\-\_\-print (
+\begin{DoxyParamCaption}
+\item[{{\bf vector\-\_\-t}}]{v}
+\end{DoxyParamCaption}
+)}}\label{vector_8h_a4e39a5a166bcc8b5457b4312f01a61c8}
+
+
+Vector factory. 
+
+This function print the vector into a vertical array. 
+\begin{DoxyParams}{Paramètres}
+{\em v,\-:} & vector you want to display. \\
+\hline
+\end{DoxyParams}
+\hypertarget{vector_8h_a0c84d1ac261656da72a6dec1bbf435c6}{\index{vector.\-h@{vector.\-h}!v\-\_\-print\-\_\-h@{v\-\_\-print\-\_\-h}}
+\index{v\-\_\-print\-\_\-h@{v\-\_\-print\-\_\-h}!vector.h@{vector.\-h}}
+\subsubsection[{v\-\_\-print\-\_\-h}]{\setlength{\rightskip}{0pt plus 5cm}void v\-\_\-print\-\_\-h (
+\begin{DoxyParamCaption}
+\item[{{\bf vector\-\_\-t}}]{v}
+\end{DoxyParamCaption}
+)}}\label{vector_8h_a0c84d1ac261656da72a6dec1bbf435c6}
+
+
+Vector factory. 
+
+This function print the vector into an horizontal array. 
+\begin{DoxyParams}{Paramètres}
+{\em v,\-:} & vector you want to display. \\
+\hline
+\end{DoxyParams}
+\hypertarget{vector_8h_a462c39061dabc24bcd55f9c8a24e7465}{\index{vector.\-h@{vector.\-h}!v\-\_\-set@{v\-\_\-set}}
+\index{v\-\_\-set@{v\-\_\-set}!vector.h@{vector.\-h}}
+\subsubsection[{v\-\_\-set}]{\setlength{\rightskip}{0pt plus 5cm}void v\-\_\-set (
+\begin{DoxyParamCaption}
+\item[{{\bf vector\-\_\-t}}]{v, }
+\item[{unsigned}]{i, }
+\item[{double}]{x}
+\end{DoxyParamCaption}
+)}}\label{vector_8h_a462c39061dabc24bcd55f9c8a24e7465}
+
+
+Vector factory. 
+
+This function set at the value indexed i, the value x you passed in parameter; 
+\begin{DoxyParams}{Paramètres}
+{\em v,i,x,\-:} & the vector v you want to set value (not null) and i the index (not null) and x double you want to set. \\
+\hline
+\end{DoxyParams}

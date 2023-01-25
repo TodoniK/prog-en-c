@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>prog-en-c:  Fichier source de /net/r/jroyet/Documents/S6/PG120/include/matrix.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">prog-en-c
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">matrix.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="matrix_8h.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef MATRIX_H</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MATRIX_H</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include&lt;<a class="code" href="vector_8h.html">vector.h</a>&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="structmatrix__t.html">   12</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structmatrix__t.html#ad8db0f75faea2e9fb4e0423ca72bb740">   14</a></span>&#160;  <span class="keywordtype">unsigned</span> <a class="code" href="structmatrix__t.html#ad8db0f75faea2e9fb4e0423ca72bb740">row_size</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="structmatrix__t.html#a8927ebbe25fb67a44d54685a2af15de1">   16</a></span>&#160;  <span class="keywordtype">unsigned</span> <a class="code" href="structmatrix__t.html#a8927ebbe25fb67a44d54685a2af15de1">col_size</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structmatrix__t.html#adc159eec6e4a7f7e6a76363cfd1e62fe">   18</a></span>&#160;  <span class="keywordtype">double</span> * <a class="code" href="structmatrix__t.html#adc159eec6e4a7f7e6a76363cfd1e62fe">values</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;} <a class="code" href="structmatrix__t.html">matrix_t</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<a class="code" href="structmatrix__t.html">matrix_t</a> <a class="code" href="matrix_8h.html#ad769ccf600ccdfc34bc1e689de15c62a">make_matrix</a>(<span class="keywordtype">unsigned</span> r, <span class="keywordtype">unsigned</span> c);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrix_8h.html#a73dd7de95b32250bc477a82a9d342ccc">free_matrix</a>(<a class="code" href="structmatrix__t.html">matrix_t</a> m);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">double</span> <a class="code" href="matrix_8h.html#a518c9b74e759caaffb4d2b7acb375e72">m_get</a>(<a class="code" href="structmatrix__t.html">matrix_t</a> m, <span class="keywordtype">unsigned</span> i, <span class="keywordtype">unsigned</span> j);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrix_8h.html#ad968f7e942878afd429a3ad0204dcd81">m_set</a>(<a class="code" href="structmatrix__t.html">matrix_t</a> m, <span class="keywordtype">unsigned</span> i, <span class="keywordtype">unsigned</span> j, <span class="keywordtype">double</span> x);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrix_8h.html#ae515207cfa1f83320afbaf3c5e9a2ee0">m_add</a>(<a class="code" href="structmatrix__t.html">matrix_t</a> m, <span class="keywordtype">unsigned</span> i, <span class="keywordtype">unsigned</span> j, <span class="keywordtype">double</span> x);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrix_8h.html#aa15b2812edebddf228d0726ee7878e14">peek_row</a>(<span class="keyword">const</span> <a class="code" href="structmatrix__t.html">matrix_t</a> *m, <span class="keywordtype">unsigned</span> i, <a class="code" href="structvector__t.html">vector_t</a> *v);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<a class="code" href="structvector__t.html">vector_t</a> <a class="code" href="matrix_8h.html#adff2f2ffa358db9801416b0ea43b16bd">apply</a>(<a class="code" href="structmatrix__t.html">matrix_t</a> m, <a class="code" href="structvector__t.html">vector_t</a> v);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keywordtype">void</span> <a class="code" href="matrix_8h.html#af49628e444147f6d4835b0857cd11329">m_print</a>(<a class="code" href="structmatrix__t.html">matrix_t</a> m);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<a class="code" href="structmatrix__t.html">matrix_t</a> <a class="code" href="matrix_8h.html#ab2f814a6c8f0a7e85a44407c6a3e320d">make_rotation_matrix</a>(<span class="keywordtype">double</span> alpha);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="matrix_8h_html_adff2f2ffa358db9801416b0ea43b16bd"><div class="ttname"><a href="matrix_8h.html#adff2f2ffa358db9801416b0ea43b16bd">apply</a></div><div class="ttdeci">vector_t apply(matrix_t m, vector_t v)</div></div>
+<div class="ttc" id="structmatrix__t_html_adc159eec6e4a7f7e6a76363cfd1e62fe"><div class="ttname"><a href="structmatrix__t.html#adc159eec6e4a7f7e6a76363cfd1e62fe">matrix_t::values</a></div><div class="ttdeci">double * values</div><div class="ttdef"><b>Definition:</b> matrix.h:18</div></div>
+<div class="ttc" id="structmatrix__t_html"><div class="ttname"><a href="structmatrix__t.html">matrix_t</a></div><div class="ttdoc">Definition of vector_t type. </div><div class="ttdef"><b>Definition:</b> matrix.h:12</div></div>
+<div class="ttc" id="structvector__t_html"><div class="ttname"><a href="structvector__t.html">vector_t</a></div><div class="ttdoc">Definition of vector_t type. </div><div class="ttdef"><b>Definition:</b> vector.h:11</div></div>
+<div class="ttc" id="matrix_8h_html_ad769ccf600ccdfc34bc1e689de15c62a"><div class="ttname"><a href="matrix_8h.html#ad769ccf600ccdfc34bc1e689de15c62a">make_matrix</a></div><div class="ttdeci">matrix_t make_matrix(unsigned r, unsigned c)</div><div class="ttdoc">Matrix factory. </div></div>
+<div class="ttc" id="matrix_8h_html_ae515207cfa1f83320afbaf3c5e9a2ee0"><div class="ttname"><a href="matrix_8h.html#ae515207cfa1f83320afbaf3c5e9a2ee0">m_add</a></div><div class="ttdeci">void m_add(matrix_t m, unsigned i, unsigned j, double x)</div><div class="ttdoc">Matrix factory. </div></div>
+<div class="ttc" id="matrix_8h_html_ab2f814a6c8f0a7e85a44407c6a3e320d"><div class="ttname"><a href="matrix_8h.html#ab2f814a6c8f0a7e85a44407c6a3e320d">make_rotation_matrix</a></div><div class="ttdeci">matrix_t make_rotation_matrix(double alpha)</div><div class="ttdoc">Matrix factory. </div></div>
+<div class="ttc" id="matrix_8h_html_aa15b2812edebddf228d0726ee7878e14"><div class="ttname"><a href="matrix_8h.html#aa15b2812edebddf228d0726ee7878e14">peek_row</a></div><div class="ttdeci">void peek_row(const matrix_t *m, unsigned i, vector_t *v)</div></div>
+<div class="ttc" id="matrix_8h_html_a518c9b74e759caaffb4d2b7acb375e72"><div class="ttname"><a href="matrix_8h.html#a518c9b74e759caaffb4d2b7acb375e72">m_get</a></div><div class="ttdeci">double m_get(matrix_t m, unsigned i, unsigned j)</div><div class="ttdoc">Matrix factory. </div></div>
+<div class="ttc" id="matrix_8h_html_a73dd7de95b32250bc477a82a9d342ccc"><div class="ttname"><a href="matrix_8h.html#a73dd7de95b32250bc477a82a9d342ccc">free_matrix</a></div><div class="ttdeci">void free_matrix(matrix_t m)</div><div class="ttdoc">Matrix factory. </div></div>
+<div class="ttc" id="matrix_8h_html_af49628e444147f6d4835b0857cd11329"><div class="ttname"><a href="matrix_8h.html#af49628e444147f6d4835b0857cd11329">m_print</a></div><div class="ttdeci">void m_print(matrix_t m)</div><div class="ttdoc">Matrix factory. </div></div>
+<div class="ttc" id="matrix_8h_html_ad968f7e942878afd429a3ad0204dcd81"><div class="ttname"><a href="matrix_8h.html#ad968f7e942878afd429a3ad0204dcd81">m_set</a></div><div class="ttdeci">void m_set(matrix_t m, unsigned i, unsigned j, double x)</div><div class="ttdoc">Matrix factory. </div></div>
+<div class="ttc" id="vector_8h_html"><div class="ttname"><a href="vector_8h.html">vector.h</a></div><div class="ttdoc">A small vector library. </div></div>
+<div class="ttc" id="structmatrix__t_html_a8927ebbe25fb67a44d54685a2af15de1"><div class="ttname"><a href="structmatrix__t.html#a8927ebbe25fb67a44d54685a2af15de1">matrix_t::col_size</a></div><div class="ttdeci">unsigned col_size</div><div class="ttdef"><b>Definition:</b> matrix.h:16</div></div>
+<div class="ttc" id="structmatrix__t_html_ad8db0f75faea2e9fb4e0423ca72bb740"><div class="ttname"><a href="structmatrix__t.html#ad8db0f75faea2e9fb4e0423ca72bb740">matrix_t::row_size</a></div><div class="ttdeci">unsigned row_size</div><div class="ttdef"><b>Definition:</b> matrix.h:14</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.5
+</small></address>
+</body>
+</html>
