@@ -54,3 +54,11 @@ void v_print(vector_t v) {
 void free_vector(vector_t v){
   free(v.values);
 }
+
+vector_t clone_vector(vector_t v) {
+  vector_t c = v;
+  size_t space=c.size*sizeof(double);
+  c.values = malloc(space);
+  memcpy(c.values, v.values, space);
+  return c;
+}

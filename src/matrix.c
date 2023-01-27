@@ -67,3 +67,20 @@ matrix_t make_rotation_matrix(double alpha) {
 void free_matrix(matrix_t m){
   free(m.values);
 }
+
+matrix_t clone_matrix(matrix_t m) {
+  matrix_t c = m;
+  size_t space=c.row_size*c.col_size*sizeof(double);
+  c.values = malloc(space);
+  memcpy(c.values, m.values, space);
+  return c;
+}
+
+matrix_t make_identity_matrix(unsigned n) {
+  matrix_t id = make_matrix(n,n);
+  unsigned i,j;
+  for(i=0; i<n; i++)
+    for(j=0; j<n; j++)
+      m_set(id, i, j, i==j);
+  return id;
+}
