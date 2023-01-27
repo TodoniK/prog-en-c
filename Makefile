@@ -23,4 +23,8 @@ doc:
 	@echo "Compilation de la documentation !!"
 	@doxygen doc/Doxyfile
 
+progbug: progbug/%.c
+	@echo "..Compilation des fichiers du dossier progbug avec gdb.."
+	@$(CC) -ggdb $(CFLAGS) -o $@ $< -fPIC
+
 .PHONY: clean all doc
